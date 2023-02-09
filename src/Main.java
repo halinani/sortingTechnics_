@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] args) {
 
-        int[] arr = new int[]{10,3,12,1,2};
-        int lb = 0;
-        int ub = arr.length-1;
+        int[] arr = new int[]{10,3,121,165,18,51,8716,846,1,16,487,16,18,71,1,};
 
-        MergeSort ms = new MergeSort();
-        ms.print(arr);
-        ms.mergeSort(arr, lb, ub);
-        ms.print(arr);
+        HeapSort heap = new HeapSort(arr);
+        heap.print();
+        heap.sort();
+        heap.print();
+
+
     }
 }
